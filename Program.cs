@@ -28,6 +28,7 @@ namespace Steganography
             else if (answer == 1)
             {
                 Decode();
+                Console.WriteLine("Decoded and saved succesfully");
             }
             Console.ReadLine();
         }
